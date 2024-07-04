@@ -4305,7 +4305,7 @@ input, select, textarea {
 		}
 */
 
-/* Nav Panel
+/* Nav Panel */
 
 	#navPanelToggle {
 		text-decoration: none;
@@ -4428,7 +4428,7 @@ input, select, textarea {
 			transition: color 0.2s ease-in-out;
 			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 			border: 0;
-			color: #909498;
+			color: #e63946;
 			cursor: pointer;
 			display: block;
 			height: 1.25rem;
@@ -4488,7 +4488,7 @@ input, select, textarea {
 	@media screen and (max-width: 980px) {
 
 		body.is-navPanel-visible #wrapper {
-			opacity: 0.5;
+			opacity: 0.8;
 		}
 
 		body.is-navPanel-visible #navPanel {
@@ -4501,4 +4501,4 @@ input, select, textarea {
 		}
 
 	}
- */
+
