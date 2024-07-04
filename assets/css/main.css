@@ -3083,7 +3083,7 @@ input, select, textarea {
 		border-color: #eeeeee;
 	}
 
-/* Pagination */
+/* Pagination 
 
 	.pagination {
 		display: -moz-inline-flex;
@@ -3192,6 +3192,8 @@ input, select, textarea {
 	.pagination span {
 		color: #eeeeee;
 	}
+
+*/
 
 /* Wrapper 
 
