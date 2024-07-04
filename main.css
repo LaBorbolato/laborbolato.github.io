@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #ccd5ae;
+		background-color: #ccd5ae; /* Muda a cor de fundo do site */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -326,8 +326,8 @@ input, select, textarea {
 /* Row */
 
 	.row {
-		display: flex;
-		flex-wrap: wrap;
+		display: fixed;
+		/* flex-wrap: wrap; */
 		box-sizing: border-box;
 		align-items: stretch;
 	}
