@@ -3276,6 +3276,7 @@ input, select, textarea {
 
 	#header {
 		color: #a5a58d;
+		margin-top: -20px;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3305,11 +3306,11 @@ input, select, textarea {
 	}
 
 		#header input, #header select, #header textarea {
-			color: #ffffff;
+			color: #a5a58d;
 		}
 
 		#header a {
-			color: #ffffff;
+			color: #a5a58d;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
@@ -3319,7 +3320,7 @@ input, select, textarea {
 			}
 
 		#header strong, #header b {
-			color: #ffffff;
+			color: #a5a58d;
 		}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -3327,7 +3328,7 @@ input, select, textarea {
 		}
 
 		#header blockquote {
-			border-left-color: #ffffff;
+			border-left-color: #a5a58d;
 		}
 
 		#header code {
