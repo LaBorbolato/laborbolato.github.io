@@ -3482,11 +3482,11 @@ input, select, textarea {
 		}
 
 		#nav strong, #nav b {
-			color: #6b705c;
+			color: #ffffff;
 		}
 
 		#nav h1, #nav h2, #nav h3, #nav h4, #nav h5, #nav h6 {
-			color: #6b705c;
+			color: #ffffff;
 		}
 
 		#nav blockquote {
@@ -3495,11 +3495,11 @@ input, select, textarea {
 
 		#nav code {
 			background: rgba(255, 255, 255, 0.075);
-			border-color: #6b705c;
+			border-color: #ffffff;
 		}
 
 		#nav hr {
-			border-bottom-color: #6b705c;
+			border-bottom-color: #ffffff;
 		}
 
 		#nav ul.links {
