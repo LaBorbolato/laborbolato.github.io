@@ -113,7 +113,7 @@ input, select, textarea {
 			transition: none !important;
 		}
 
-/* Type
+/* Type */
 
 	html {
 		font-size: 16pt;
@@ -321,9 +321,9 @@ input, select, textarea {
 	hr {
 		border-bottom-color: #eeeeee;
 	}
-*/
 
-/* Row
+
+/* Row */
 
 	.row {
 		display: flex;
@@ -2035,8 +2035,6 @@ input, select, textarea {
 						}
 
 		}
-
- */
 
 /* Box */
 
