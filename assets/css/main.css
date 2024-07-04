@@ -3761,7 +3761,7 @@ input, select, textarea {
 		}
 
 			#main > .post header.major > .date {
-				margin-top: -2rem;
+				margin-top: 0;
 			}
 
 			#main > .post header.major > h1, #main > .post header.major h2 {
