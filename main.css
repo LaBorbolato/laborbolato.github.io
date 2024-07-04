@@ -3532,7 +3532,7 @@ input, select, textarea {
 			border-bottom-color: #ffffff;
 		}
 
-		#header .logo {
+		/* #header .logo {
 			-moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -moz-transform 0.5s ease, visibility 0.5s;
 			-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -webkit-transform 0.5s ease, visibility 0.5s;
 			-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -ms-transform 0.5s ease, visibility 0.5s;
@@ -3554,12 +3554,12 @@ input, select, textarea {
 			#header .logo:hover {
 				border-color: #4545a1 !important;
 				color: #4545a1 !important;
-			}
+			} */
 
 		@media screen and (max-width: 980px) {
 
 			#header {
-				height: 14rem;
+				height: 2rem;
 				padding-bottom: 4rem;
 			}
 
@@ -3571,12 +3571,12 @@ input, select, textarea {
 				padding-bottom: 3rem;
 			}
 
-				#header .logo {
+				/*#header .logo {
 					font-size: 1.75rem;
 					border-width: 3px !important;
-				}
+				}*/
 
-		} */
+		}
 
 /* Nav */
 
