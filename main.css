@@ -2881,7 +2881,7 @@ input, select, textarea {
 		box-shadow: inset 0 0 0 2px #4545a1;
 	}
 
-/* Section/Article */
+/* Section/Article 
 
 	section.special, article.special {
 		text-align: center;
@@ -2978,7 +2978,7 @@ input, select, textarea {
 
 	header.major .date:before, header.major .date:after {
 		border-top-color: #eeeeee;
-	}
+	} */
 
 /* Table */
 
