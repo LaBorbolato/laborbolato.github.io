@@ -2572,7 +2572,7 @@ input, select, textarea {
 		}
 */
 
-/* Image
+/* Image */
 
 	.image {
 		border: 0;
@@ -2661,9 +2661,9 @@ input, select, textarea {
 			-ms-transform: scale(1.05);
 			transform: scale(1.05);
 		}
- */
+ 
 
-/* Actions */
+/* Actions 
 
 	ul.actions {
 		display: -moz-flex;
@@ -2784,6 +2784,8 @@ input, select, textarea {
 						}
 
 		}
+
+*/
 
 /* Icons
 
