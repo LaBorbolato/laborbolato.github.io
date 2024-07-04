@@ -288,11 +288,11 @@ input, select, textarea {
 	}
 
 	input, select, textarea {
-		color: #e9edc9;
+		color: #d8e2dc; /* muda a cor de fundo */
 	}
 
 	a {
-		color: #e9edc9;
+		color: #d8e2dc; /* muda a cor de fundo */
 		border-bottom-color: rgba(33, 41, 49, 0.5);
 	}
 
