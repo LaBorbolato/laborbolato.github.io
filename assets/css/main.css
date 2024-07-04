@@ -2549,7 +2549,7 @@ input, select, textarea {
 		color: #909498 !important;
 	}
 
-/* Icon 
+/* Icon */
 
 	.icon {
 		text-decoration: none;
@@ -2569,9 +2569,9 @@ input, select, textarea {
 		.icon > .label {
 			display: none;
 		}
-*/
 
-/* Image 
+
+/* Image */
 
 	.image {
 		border: 0;
@@ -2661,9 +2661,9 @@ input, select, textarea {
 			transform: scale(1.05);
 		}
 
-*/
 
-/* Actions 
+
+/* Actions */
 
 	ul.actions {
 		display: -moz-flex;
@@ -2785,7 +2785,7 @@ input, select, textarea {
 
 		}
 
-*/
+
 
 /* Icons */
 
@@ -2824,7 +2824,7 @@ input, select, textarea {
 		}
 
 
-/* List
+/* List */
 
 	ol {
 		list-style: decimal;
@@ -2891,7 +2891,7 @@ input, select, textarea {
 		box-shadow: inset 0 0 0 2px #4545a1;
 	}
 
- */
+ 
 
 /* Section/Article */
 
