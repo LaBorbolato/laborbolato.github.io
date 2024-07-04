@@ -3299,7 +3299,7 @@ input, select, textarea {
 		-ms-user-select: none;
 		user-select: none;
 		height: 0;
-		padding-bottom: 0;
+		padding-bottom: 4rem;
 		position: relative;
 		text-align: center;
 		z-index: 2;
