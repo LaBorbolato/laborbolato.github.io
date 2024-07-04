@@ -11,12 +11,12 @@
 	#wrapper {
 		background-color: #ddbea9;
 		background-image: url("MW.png"); 
-		background-size: auto,auto,100% auto;
-		background-position: center,center,top center;
-		background-repeat: repeat,no-repeat,no-repeat;
-		background-attachment: fixed,fixed,fixed;
-		transform: translate3d(0,0,0);
-		-webkit-transform: translate3d(0,0,0);
+		background-size: 100% auto;
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		/*transform: translate3d(0,0,0);
+		-webkit-transform: translate3d(0,0,0); */
 	}
 
 		#wrapper.fade-in:before {
