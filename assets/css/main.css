@@ -3475,7 +3475,7 @@ input, select, textarea {
 		}
 
 			#nav a:hover {
-				border-bottom-color: transparent;
+				border-bottom-color: #ddbea9;
 				color: #4545a1 !important;
 			}
 
