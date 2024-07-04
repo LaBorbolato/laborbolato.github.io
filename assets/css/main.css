@@ -319,7 +319,8 @@ input, select, textarea {
 	}
 
 	hr {
-		border-bottom-color: #eeeeee;
+		border-bottom-color: #ddbea9; 
+		/* #eeeee */
 	}
 
 
