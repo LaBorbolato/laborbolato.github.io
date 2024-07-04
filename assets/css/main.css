@@ -3429,16 +3429,16 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		background-color: #ddbea9;
+		color: #495057;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex; 
 		-moz-transition: -moz-transform 1s ease, opacity 1s ease;
 		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
-		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
-		transition: transform 1s ease, opacity 1s ease;
-		background: rgba(255, 255, 255, 0.175); 
+		-ms-transition: -ms-transform 1s ease, opacity 1s ease; 
+		transition: transform 1s ease, opacity 1s ease; 
+		background: #495057;
 		height: 4rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
@@ -3546,11 +3546,11 @@ input, select, textarea {
 					}
 
 				#nav ul.links li.active {
-					background-color: #6b705c;
+					background-color: #343a40;
 				}
 
 					#nav ul.links li.active a {
-						color: #1e252d;
+						color: #fffff;
 					}
 
 						#nav ul.links li.active a:hover {
