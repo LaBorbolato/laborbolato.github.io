@@ -2060,7 +2060,7 @@ input, select, textarea {
 		border-color: #eeeeee;
 	}
 
-/* Button */
+/* Button 
 
 	input[type="submit"],
 	input[type="reset"],
@@ -2237,6 +2237,8 @@ input, select, textarea {
 			.button.primary:hover {
 				background-color: #4545a1;
 			}
+
+*/
 
 /* Form */
 
