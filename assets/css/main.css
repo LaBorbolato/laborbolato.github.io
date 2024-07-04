@@ -3389,7 +3389,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		color: #ffffff;
+		color: #a5a58d;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3411,7 +3411,7 @@ input, select, textarea {
 	}
 
 		#nav ul.divided li {
-			border-top-color: #ffffff;
+			border-top-color: #6b705c;
 		}
 
 		#nav ul.icons li a.icon:hover:before {
@@ -3419,7 +3419,7 @@ input, select, textarea {
 		}
 
 		#nav ul.icons.alt li .icon:before {
-			box-shadow: inset 0 0 0 2px #ffffff;
+			box-shadow: inset 0 0 0 2px #6b705c;
 		}
 
 		#nav ul.icons.alt li a.icon:hover:before {
@@ -3427,11 +3427,11 @@ input, select, textarea {
 		}
 
 		#nav input, #nav select, #nav textarea {
-			color: #ffffff;
+			color: #6b705c;
 		}
 
 		#nav a {
-			color: #ffffff;
+			color: #6b705c;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
@@ -3441,11 +3441,11 @@ input, select, textarea {
 			}
 
 		#nav strong, #nav b {
-			color: #ffffff;
+			color: #6b705c;
 		}
 
 		#nav h1, #nav h2, #nav h3, #nav h4, #nav h5, #nav h6 {
-			color: #ffffff;
+			color: #6b705c;
 		}
 
 		#nav blockquote {
@@ -3454,11 +3454,11 @@ input, select, textarea {
 
 		#nav code {
 			background: rgba(255, 255, 255, 0.075);
-			border-color: #ffffff;
+			border-color: #6b705c;
 		}
 
 		#nav hr {
-			border-bottom-color: #ffffff;
+			border-bottom-color: #6b705c;
 		}
 
 		#nav ul.links {
@@ -3505,7 +3505,7 @@ input, select, textarea {
 					}
 
 				#nav ul.links li.active {
-					background-color: #ffffff;
+					background-color: #6b705c;
 				}
 
 					#nav ul.links li.active a {
