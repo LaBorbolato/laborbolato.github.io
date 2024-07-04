@@ -19,9 +19,9 @@
 		-webkit-transform: translate3d(0,0,0); */
 	}
 
-		#wrapper.fade-in:before {
+		/* #wrapper.fade-in:before {
 			display: none;
-		}
+		} */
 
 /* Intro */
 
@@ -29,7 +29,7 @@
 		opacity: 1;
 	}
 
-		body.is-preload #intro:not(.hidden) + #header + #nav {
+		body.is-preload #intro + #header + #nav {
 			-moz-transform: none;
 			-webkit-transform: none;
 			-ms-transform: none;
