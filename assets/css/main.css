@@ -3429,7 +3429,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		color: #6c757d;
+		color: #495057;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3438,7 +3438,7 @@ input, select, textarea {
 		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease; 
 		transition: transform 1s ease, opacity 1s ease; 
-		background: #6c757d;
+		background: #495057;
 		height: 4rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
@@ -3467,11 +3467,11 @@ input, select, textarea {
 		}
 
 		#nav input, #nav select, #nav textarea {
-			color: #6b705c;
+			color: #ffffff;
 		}
 
 		#nav a {
-			color: #6b705c;
+			color: #ffffff;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
