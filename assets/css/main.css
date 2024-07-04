@@ -3430,15 +3430,15 @@ input, select, textarea {
 
 	#nav {
 		background-color: #ddbea9;
-		display: -moz-flex;
+		/*display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;
+		display: flex; 
 		-moz-transition: -moz-transform 1s ease, opacity 1s ease;
 		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 		transition: transform 1s ease, opacity 1s ease;
-		background: rgba(255, 255, 255, 0.175);
+		/*background: rgba(255, 255, 255, 0.175); */
 		height: 4rem;
 		line-height: 4rem;
 		margin: -4rem auto 0 auto;
@@ -3475,10 +3475,11 @@ input, select, textarea {
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
-			#nav a:hover {
-				border-bottom-color: #ddbea9;
-				color: #4545a1 !important;
-			}
+		#nav a:hover {
+			border-bottom-color: #ddbea9;
+			color: #4545a1 !important;
+			background: #ddbea9;
+		}
 
 		#nav strong, #nav b {
 			color: #6b705c;
@@ -3501,7 +3502,7 @@ input, select, textarea {
 			border-bottom-color: #6b705c;
 		}
 
-		#nav ul.links {
+		/* #nav ul.links {
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -3575,6 +3576,7 @@ input, select, textarea {
 			}
 
 		}
+              */
 
 /* Main */
 
