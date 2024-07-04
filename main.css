@@ -1,3 +1,4 @@
+
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
 
@@ -99,7 +100,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #ccd5ae; /* Muda a cor de fundo do site */
+		background-color: #1e252d;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -144,7 +145,7 @@ input, select, textarea {
 		}
 
 	body {
-		color: #ccd5ae;
+		color: #212931;
 	}
 
 	body, input, select, textarea {
@@ -257,14 +258,13 @@ input, select, textarea {
 		font-size: 0.9rem;
 		margin: 0 0 2rem 0;
 	}
-	      <!--
+
 		pre code {
 			display: block;
 			line-height: 1.75;
 			padding: 1rem 1.5rem;
 			overflow-x: auto;
 		}
-	      --> 
 
 	hr {
 		border: 0;
@@ -326,8 +326,8 @@ input, select, textarea {
 /* Row */
 
 	.row {
-		display: fixed;
-		/* flex-wrap: wrap; */
+		display: flex;
+		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
 	}
@@ -3209,10 +3209,10 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			background-image: url("bg.jpg");
-			background-size: 100% auto;
-			background-position: top center;
-			background-repeat:  no-repeat; 
+			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
+			background-size: auto, auto, 100% auto;
+			background-position: top center, top center, top center;
+			background-repeat: repeat, no-repeat, no-repeat; 
 			background-attachment:	scroll;
 			z-index: -1;
 		}
@@ -3251,7 +3251,7 @@ input, select, textarea {
 		@media screen and (orientation: portrait) {
 
 			#wrapper > .bg {
-				background-size: auto 175%;
+				background-size: auto,auto,auto 175%;
 			}
 
 		}
@@ -3259,7 +3259,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		color: #000000;
+		color: #ffffff;
 		padding: 8rem 4rem 6rem 4rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
@@ -3289,11 +3289,11 @@ input, select, textarea {
 	}
 
 		#intro input, #intro select, #intro textarea {
-			color: #000000;
+			color: #ffffff;
 		}
 
 		#intro a {
-			color: #000000;
+			color: #ffffff;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
@@ -3303,24 +3303,24 @@ input, select, textarea {
 			}
 
 		#intro strong, #intro b {
-			color: #000000;
+			color: #ffffff;
 		}
 
 		#intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
-			color: #000000;
+			color: #ffffff;
 		}
 
 		#intro blockquote {
-			border-left-color: #000000;
+			border-left-color: #ffffff;
 		}
 
 		#intro code {
 			background: rgba(255, 255, 255, 0.075);
-			border-color: #000000;
+			border-color: #ffffff;
 		}
 
 		#intro hr {
-			border-bottom-color: #000000;
+			border-bottom-color: #ffffff;
 		}
 
 		#intro input[type="submit"],
@@ -3329,8 +3329,8 @@ input, select, textarea {
 		#intro button,
 		#intro .button {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #000000;
-			color: #000000 !important;
+			box-shadow: inset 0 0 0 2px #ffffff;
+			color: #ffffff !important;
 		}
 
 			#intro input[type="submit"]:hover,
@@ -3347,7 +3347,7 @@ input, select, textarea {
 			#intro input[type="button"].primary,
 			#intro button.primary,
 			#intro .button.primary {
-				background-color: #000000;
+				background-color: #ffffff;
 				box-shadow: none;
 				color: #1e252d !important;
 			}
@@ -3372,11 +3372,11 @@ input, select, textarea {
 			text-align: center;
 		}
 
-		#intro + header{
-			margin-top: -2rem;
+		#intro + #header {
+			margin-top: -20rem;
 		}
 
-			#intro {
+			#intro + #header .logo {
 				-moz-transform: translateY(2rem);
 				-webkit-transform: translateY(2rem);
 				-ms-transform: translateY(2rem);
@@ -3399,7 +3399,7 @@ input, select, textarea {
 			visibility: hidden;
 		}
 
-			#intro.hidden {
+			#intro.hidden + #header .logo {
 				-moz-transform: translateY(0);
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
@@ -3416,7 +3416,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-			body.is-preload #intro:not(.hidden) + header + #nav {
+			body.is-preload #intro:not(.hidden) + #header + #nav {
 				-moz-transform: translateY(4rem);
 				-webkit-transform: translateY(4rem);
 				-ms-transform: translateY(4rem);
@@ -3435,8 +3435,8 @@ input, select, textarea {
 					display: none;
 				}
 
-				#intro + header {
-					margin-top: -2rem;
+				#intro + #header {
+					margin-top: -14rem;
 				}
 
 		}
@@ -3465,7 +3465,7 @@ input, select, textarea {
 
 		}
 
-/* Header
+/* Header */
 
 	#header {
 		color: #ffffff;
