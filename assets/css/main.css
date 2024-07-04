@@ -3428,7 +3428,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		color: #a5a58d;
+		background-color: #ddbea9;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
