@@ -9,13 +9,14 @@
 /* Wrapper */
 
 	#wrapper {
-		background-color: #ddbea9;
+		background-color: #e9edc9;
+		/*
 		background-image: url("bg.png"); 
 		background-size: 100% auto;
 		background-position: top center;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
-		/*transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
 		-webkit-transform: translate3d(0,0,0); */
 	}
 
