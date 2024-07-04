@@ -30,7 +30,7 @@
 		opacity: 1;
 	}
 
-		body.is-preload #intro + #header + #nav {
+		body.is-preload #intro + #nav {
 			-moz-transform: none;
 			-webkit-transform: none;
 			-ms-transform: none;
