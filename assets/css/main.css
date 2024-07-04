@@ -310,12 +310,12 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left-color: #eeeeee;
+		border-left-color: #ddbea9;
 	}
 
 	code {
 		background: rgba(220, 220, 220, 0.25);
-		border-color: #eeeeee;
+		border-color: #ddbea9;
 	}
 
 	hr {
@@ -2063,7 +2063,7 @@ input, select, textarea {
 
 */
 
-/* Button 
+/* Button */
 
 	input[type="submit"],
 	input[type="reset"],
@@ -2241,7 +2241,7 @@ input, select, textarea {
 				background-color: #4545a1;
 			}
 
-*/
+
 
 /* Form */
 
@@ -2505,7 +2505,7 @@ input, select, textarea {
 		}
 
 	.select-wrapper:before {
-		color: #eeeeee;
+		color: #ddbea9;
 	}
 
 	input[type="checkbox"] + label,
@@ -2515,7 +2515,7 @@ input, select, textarea {
 
 		input[type="checkbox"] + label:before,
 		input[type="radio"] + label:before {
-			border-color: #eeeeee;
+			border-color: #ddbea9;
 		}
 
 	input[type="checkbox"]:checked + label:before,
@@ -2917,7 +2917,7 @@ input, select, textarea {
 		}
 
 	ul.divided li {
-		border-top-color: #eeeeee;
+		border-top-color: #ddbea9;
 	}
 
 	ul.icons li a.icon:hover:before {
@@ -2925,7 +2925,7 @@ input, select, textarea {
 	}
 
 	ul.icons.alt li .icon:before {
-		box-shadow: inset 0 0 0 2px #eeeeee;
+		box-shadow: inset 0 0 0 2px #ddbea9;
 	}
 
 	ul.icons.alt li a.icon:hover:before {
@@ -3030,7 +3030,7 @@ input, select, textarea {
 		}
 
 	header.major .date:before, header.major .date:after {
-		border-top-color: #eeeeee;
+		border-top-color: #ddbea9;
 	}
 
 /* Table */
