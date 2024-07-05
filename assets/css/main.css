@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #d8e2dc; /* muda a cor de fundo */
+		background-color: #ccd5ae; /* muda a cor de fundo */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -148,7 +148,7 @@ input, select, textarea {
 		}
 
 	body {
-		color: #fb5607;
+		color: #495057; /* muda a cor do texto no site */
 	}
 
 	body, input, select, textarea {
