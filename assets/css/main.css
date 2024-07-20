@@ -26,7 +26,7 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, , hgroup, menu, nav, section {
 	display: block;}
 
 body {
@@ -3135,7 +3135,7 @@ input, select, textarea {
 		border-color: #eeeeee;
 	}
 
-/* Pagination 
+/* Pagination */
 
 	.pagination {
 		display: -moz-inline-flex;
@@ -3245,7 +3245,6 @@ input, select, textarea {
 		color: #eeeeee;
 	}
 
-*/
 
 /* Wrapper */
 
@@ -3341,10 +3340,10 @@ input, select, textarea {
 		-ms-user-select: none;
 		user-select: none;
 		height: 0;
-		padding-bottom: 4rem;
-		position: top;
+		padding-bottom: 100%;
+		position: relative;
 		text-align: center;
-		z-index: 1;
+		z-index: 2;
 	}
 
 		#header input, #header select, #header textarea {
