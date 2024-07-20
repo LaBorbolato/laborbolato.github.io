@@ -3342,7 +3342,7 @@ input, select, textarea {
 		user-select: none;
 		height: 0;
 		padding-bottom: 4rem;
-		position: relative;
+		position: top;
 		text-align: center;
 		z-index: 2;
 	}
