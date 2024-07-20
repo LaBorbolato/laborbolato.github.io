@@ -3344,7 +3344,7 @@ input, select, textarea {
 		padding-bottom: 4rem;
 		position: top;
 		text-align: center;
-		z-index: 2;
+		z-index: 1;
 	}
 
 		#header input, #header select, #header textarea {
