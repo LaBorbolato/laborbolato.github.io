@@ -3276,7 +3276,7 @@ input, select, textarea {
 		}
 
 			#wrapper > .bg.fixed {
-				position: fixed;
+				position: absolute;
 				width: 100vw;
 				height: 100vh;
 			}
@@ -3291,7 +3291,7 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background: #1e252d;
+			background: #ff642a; /* teste */
 			content: '';
 			display: block;
 			height: 100%;
