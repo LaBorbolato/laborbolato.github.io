@@ -2041,12 +2041,12 @@ input, select, textarea {
 
 		}
 
-/* Box 
+/* Box */
 
 	.box {
-		border: solid 2px;
-		margin-bottom: 2rem;
-		padding: 1.5rem;
+		border: solid 0;
+		margin-bottom: 0;
+		padding: 0;
 	}
 
 		.box > :last-child,
@@ -2064,8 +2064,6 @@ input, select, textarea {
 	.box {
 		border-color: #eeeeee;
 	}
-
-*/
 
 /* Button */
 
