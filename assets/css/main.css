@@ -3393,7 +3393,7 @@ input, select, textarea {
 			font-weight: 900;
 			letter-spacing: 0.075em;
 			line-height: 1;
-			padding: 1rem 1.75rem;
+			padding: 0 0;
 			/* text-transform: uppercase; */
 			visibility: visible;
 		}
