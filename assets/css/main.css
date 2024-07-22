@@ -3315,11 +3315,12 @@ input, select, textarea {
 
 	#intro {
 		color: #ffffff;
-		padding: 4rem 4rem 4rem 4rem ;
+		padding: 2rem 2rem 2rem 2rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
+		/*
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3336,6 +3337,7 @@ input, select, textarea {
 		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 		transition: opacity 1s ease, transform 1s ease;
+		*/
 		position: relative;
 		cursor: default;
 		text-align: center;
