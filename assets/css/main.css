@@ -3466,7 +3466,7 @@ input, select, textarea {
 				opacity: 1;
 				visibility: visible;
 			}
-		*/
+		
 
 		body.is-preload #intro {
 			-moz-transform: translateY(2rem);
@@ -3484,10 +3484,12 @@ input, select, textarea {
 				opacity: 0;
 			}
 
+	*/
+
 		@media screen and (max-width: 980px) {
 
 			#intro {
-				padding: 2rem 2rem 2rem 3rem ;
+				padding: 2rem 2rem 2rem 6rem ;
 				min-height: 90vh;
 			}
 
@@ -3552,7 +3554,7 @@ input, select, textarea {
 		-webkit-user-select: none;
 		-ms-user-select: none;
 		user-select: none;
-		height: 8rem;
+		height: 0rem;
 		padding-bottom: 4rem;
 		position: relative;
 		text-align: center;
