@@ -378,7 +378,7 @@ input, select, textarea {
 		}
 
 		.row > .off-1 {
-			margin-left: 8.3333333333%;
+			margin-left:0;
 		}
 
 		.row > .col-2 {
