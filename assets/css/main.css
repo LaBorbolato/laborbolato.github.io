@@ -3365,7 +3365,8 @@ input, select, textarea {
 			color: #ffffff;
 		}
 
-#intro blockquote {
+		/*
+		#intro blockquote {
 			border-left-color: #ffffff;
 		}
 
@@ -3414,13 +3415,14 @@ input, select, textarea {
 				#intro .button.primary:hover {
 					background-color: #4545a1;
 				}
+		*/
 
 		#intro h1 {
 			font-size: 5rem;
 			line-height: 1;
 		}
 
-#intro p {
+		#intro p {
 			font-size: 1.25rem;
 			font-style: italic;
 			margin-top: -0.25rem;
