@@ -3417,7 +3417,7 @@ input, select, textarea {
 				#intro .button.primary:hover {
 					background-color: #4545a1;
 				}
-		*/
+
 
 		#intro h1 {
 			font-size: 5rem;
@@ -3443,6 +3443,7 @@ input, select, textarea {
 				opacity: 0;
 				visibility: hidden;
 			}
+		*/
 
 		/* #intro.hidden {
 			pointer-events: none;
